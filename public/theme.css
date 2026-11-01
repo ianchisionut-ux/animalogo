@@ -375,3 +375,7 @@ dialog input, dialog select { background: #ffffffec; border: 1px solid #d6e8f2; 
 #stop-sound:disabled { opacity: .5; box-shadow: none; cursor: default; }
 #stop-sound.is-playing { background: linear-gradient(#d6f5ff, #b9eaff); color: #086a9b; }
 @media (max-height: 680px) { #stop-sound { min-width: 82px; font-size: 11px; } }
+
+.feedback-symbol { font-size: 26px; line-height: 1; }
+.repeat-card .try { font-size: 28px; color: #21865b; }
+@media (max-height: 680px) { .feedback-symbol { font-size: 23px; } }

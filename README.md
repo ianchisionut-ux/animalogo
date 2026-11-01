@@ -7,6 +7,7 @@ Aplicație educativă în română pentru desktop, telefon și tabletă, cu 36 d
 - Adultul pornește manual indiciul audio.
 - Greșeala produce două note blânde și o animație discretă; copilul poate încerca din nou.
 - Răspunsul corect produce feedback sonor și steluțe animate.
+- Ecranele de joc nu conțin instrucțiuni, saluturi sau încurajări scrise adresate copilului. Feedbackul vizibil folosește simboluri și animații; numele animalelor, onomatopeele și comenzile pentru adult sunt păstrate.
 - Jocul trece automat la runda următoare după 1,4 secunde. Nu există buton „Mai departe”.
 - Aventurile amestecă implicit cele patru tipuri de joc, fără două jocuri identice consecutive. Prima rundă respectă jocul ales; adultul poate dezactiva amestecarea. Pozițiile elementelor și ordinea cardurilor de joc sunt aleatorii.
 - Butonul „Oprește” este activ numai când se redă audio și oprește atât înregistrările, cât și semnalele sonore.
