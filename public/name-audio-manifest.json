@@ -1,0 +1,254 @@
+{
+  "caine": {
+    "file": "names/caine.mp3",
+    "text": "Câine",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=C%C3%A2ine"
+  },
+  "pisica": {
+    "file": "names/pisica.mp3",
+    "text": "Pisică",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Pisic%C4%83"
+  },
+  "vaca": {
+    "file": "names/vaca.mp3",
+    "text": "Vacă",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Vac%C4%83"
+  },
+  "oaie": {
+    "file": "names/oaie.mp3",
+    "text": "Oaie",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Oaie"
+  },
+  "capra": {
+    "file": "names/capra.mp3",
+    "text": "Capră",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Capr%C4%83"
+  },
+  "cal": {
+    "file": "names/cal.mp3",
+    "text": "Cal",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Cal"
+  },
+  "magar": {
+    "file": "names/magar.mp3",
+    "text": "Măgar",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=M%C4%83gar"
+  },
+  "porc": {
+    "file": "names/porc.mp3",
+    "text": "Porc",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Porc"
+  },
+  "cocos": {
+    "file": "names/cocos.mp3",
+    "text": "Cocoș",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Coco%C8%99"
+  },
+  "gaina": {
+    "file": "names/gaina.mp3",
+    "text": "Găină",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=G%C4%83in%C4%83"
+  },
+  "rata": {
+    "file": "names/rata.mp3",
+    "text": "Rață",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Ra%C8%9B%C4%83"
+  },
+  "gasca": {
+    "file": "names/gasca.mp3",
+    "text": "Gâscă",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=G%C3%A2sc%C4%83"
+  },
+  "lup": {
+    "file": "names/lup.mp3",
+    "text": "Lup",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Lup"
+  },
+  "vulpe": {
+    "file": "names/vulpe.mp3",
+    "text": "Vulpe",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Vulpe"
+  },
+  "urs": {
+    "file": "names/urs.mp3",
+    "text": "Urs",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Urs"
+  },
+  "leu": {
+    "file": "names/leu.mp3",
+    "text": "Leu",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Leu"
+  },
+  "tigru": {
+    "file": "names/tigru.mp3",
+    "text": "Tigru",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Tigru"
+  },
+  "elefant": {
+    "file": "names/elefant.mp3",
+    "text": "Elefant",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Elefant"
+  },
+  "maimuta": {
+    "file": "names/maimuta.mp3",
+    "text": "Maimuță",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Maimu%C8%9B%C4%83"
+  },
+  "broasca": {
+    "file": "names/broasca.mp3",
+    "text": "Broască",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Broasc%C4%83"
+  },
+  "bufnita": {
+    "file": "names/bufnita.mp3",
+    "text": "Bufniță",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Bufni%C8%9B%C4%83"
+  },
+  "cioara": {
+    "file": "names/cioara.mp3",
+    "text": "Cioară",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Cioar%C4%83"
+  },
+  "cuc": {
+    "file": "names/cuc.mp3",
+    "text": "Cuc",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Cuc"
+  },
+  "porumbel": {
+    "file": "names/porumbel.mp3",
+    "text": "Porumbel",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Porumbel"
+  },
+  "vrabie": {
+    "file": "names/vrabie.mp3",
+    "text": "Vrabie",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Vrabie"
+  },
+  "ciocanitoare": {
+    "file": "names/ciocanitoare.mp3",
+    "text": "Ciocănitoare",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Cioc%C4%83nitoare"
+  },
+  "mistret": {
+    "file": "names/mistret.mp3",
+    "text": "Mistreț",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Mistre%C8%9B"
+  },
+  "cerb": {
+    "file": "names/cerb.mp3",
+    "text": "Cerb",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Cerb"
+  },
+  "foca": {
+    "file": "names/foca.mp3",
+    "text": "Focă",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Foc%C4%83"
+  },
+  "delfin": {
+    "file": "names/delfin.mp3",
+    "text": "Delfin",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Delfin"
+  },
+  "albina": {
+    "file": "names/albina.mp3",
+    "text": "Albină",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Albin%C4%83"
+  },
+  "tantar": {
+    "file": "names/tantar.mp3",
+    "text": "Țânțar",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=%C8%9A%C3%A2n%C8%9Bar"
+  },
+  "musca": {
+    "file": "names/musca.mp3",
+    "text": "Muscă",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Musc%C4%83"
+  },
+  "greier": {
+    "file": "names/greier.mp3",
+    "text": "Greier",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Greier"
+  },
+  "cicada": {
+    "file": "names/cicada.mp3",
+    "text": "Cicadă",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=Cicad%C4%83"
+  },
+  "lacusta": {
+    "file": "names/lacusta.mp3",
+    "text": "Lăcustă",
+    "language": "ro",
+    "provider": "Google Translate speech",
+    "source": "https://translate.google.com/translate_tts?ie=UTF-8&client=tw-ob&tl=ro&q=L%C4%83cust%C4%83"
+  }
+}

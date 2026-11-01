@@ -328,3 +328,45 @@ dialog input, dialog select { background: #ffffffec; border: 1px solid #d6e8f2; 
 @media (orientation: portrait) and (min-height: 760px) {
   .mini-art { width: 88px; height: 88px; }
 }
+
+/* Larger, recognizable illustrations in both habitat and food matching games. */
+.match-board { width: min(100%, 750px); max-height: 490px; }
+.match-source, .match-target { container-type: size; gap: 5px; }
+.match-source { font-size: 17px; }
+.match-target .target-label { font-size: 16px; line-height: 1.15; }
+.match-source .mini-art {
+  width: clamp(30px, calc(100cqh - 26px), 126px);
+  height: clamp(30px, calc(100cqh - 26px), 126px);
+  max-width: calc(100cqw - 8px);
+  border-radius: 16px;
+}
+.match-target .target-icon { font-size: clamp(30px, calc(100cqh - 32px), 70px); line-height: 1.05; }
+
+@media (min-width: 601px) {
+  .match-source, .match-target { flex-direction: row; gap: 16px; padding: 8px 13px; }
+  .match-source { justify-content: flex-start; text-align: left; padding: 3px 10px; }
+  .match-source > span:last-child { font-size: 18px; }
+  .match-source .mini-art { width: clamp(48px, 100cqh, 145px); height: clamp(48px, 100cqh, 145px); }
+  .match-target .target-icon { font-size: clamp(40px, calc(100cqh - 5px), 84px); }
+  .match-target .target-label { font-size: 18px; text-align: left; max-width: 55%; }
+}
+
+@media (max-width: 600px) {
+  .match-board { max-height: none; }
+  .match-source { font-size: 15px; }
+  .match-target .target-label { font-size: 14px; }
+  .match-source .mini-art { width: clamp(30px, calc(100cqh - 23px), 116px); height: clamp(30px, calc(100cqh - 23px), 116px); border-radius: 14px; }
+  .match-target .target-icon { font-size: clamp(30px, calc(100cqh - 30px), 65px); }
+}
+
+@media (max-height: 680px) {
+  .match-source { font-size: 13px; }
+  .match-target .target-label { font-size: 12px; }
+  .match-source .mini-art { width: clamp(25px, calc(100cqh - 22px), 94px); height: clamp(25px, calc(100cqh - 22px), 94px); }
+  .match-target .target-icon { font-size: clamp(26px, calc(100cqh - 26px), 56px); }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .match-source .mini-art { width: min(55px, calc(100cqh - 4px)); height: min(55px, calc(100cqh - 4px)); }
+  .match-target .target-icon { font-size: min(44px, calc(100cqh - 5px)); }
+}

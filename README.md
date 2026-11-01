@@ -30,7 +30,7 @@ Serverul local: `http://127.0.0.1:3188`.
 
 Sunetele animalelor sunt înregistrări reale, cu proveniență și licență individuală în [audio-manifest.json](public/audio-manifest.json) și [audio-credits.txt](public/audio-credits.txt). Fragmentele sunt scurtate și normalizate. Licențele fiecărui fișier audio rămân aplicabile. Nu sunt necesare servicii sau chei API pentru redare.
 
-Importul de modele audio acceptă maximum 15 MB / 60 secunde. Înregistrarea modelului adultului durează maximum 15 secunde și solicită acces la microfon. Citirea numelui folosește o voce română instalată în sistem, dacă este disponibilă.
+Importul de modele audio acceptă maximum 15 MB / 60 secunde. Înregistrarea modelului adultului durează maximum 15 secunde și solicită acces la microfon. Citirea numelor folosește cele 36 de pronunții românești incluse în `public/names`, obținute prin serviciul de pronunție Google Translate. Nu necesită voci sau software instalate pe dispozitiv și nu apelează servicii externe în timpul redării. Proveniența fișierelor este în `public/name-audio-manifest.json`.
 
 ## Verificare
 

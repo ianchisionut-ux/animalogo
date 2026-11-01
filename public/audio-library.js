@@ -1,9 +1,11 @@
 // Audio stays on this device. Uploaded models are never sent to a server.
 const AudioLibrary={
- manifest:{},custom:new Map(),player:null,url:null,context:null,recorder:null,stream:null,recordTimer:null,db:null,ready:null,
+ manifest:{},names:{},custom:new Map(),player:null,url:null,context:null,recorder:null,stream:null,recordTimer:null,db:null,ready:null,
  async refresh(){const response=await fetch('audio-manifest.json',{cache:'reload'});if(!response.ok)throw Error('Audio manifest');this.manifest=await response.json();},
+ async refreshNames(){const response=await fetch('name-audio-manifest.json',{cache:'reload'});if(!response.ok)throw Error('Name audio manifest');this.names=await response.json();},
  async init(){
   try{await this.refresh();}catch{toast('Biblioteca audio nu s-a încărcat. Reîncarcă aplicația.');}
+  try{await this.refreshNames();}catch{}
   try{this.db=await new Promise((resolve,reject)=>{let r=indexedDB.open('animalogo-audio',1);r.onupgradeneeded=()=>r.result.createObjectStore('models');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});const rows=await new Promise((resolve,reject)=>{const store=this.db.transaction('models').objectStore('models');let request=store.openCursor(),rows=[];request.onsuccess=()=>{let c=request.result;if(c){rows.push([c.key,c.value]);c.continue();}else resolve(rows);};request.onerror=()=>reject(request.error);});this.custom=new Map(rows);}catch{this.db=null;}
  },
  unlock(){try{this.context??=new(window.AudioContext||window.webkitAudioContext)();if(this.context.state==='suspended')this.context.resume().catch(()=>{});}catch{}},
@@ -12,6 +14,12 @@ const AudioLibrary={
   await this.ready;if(settings.muted){toast('Sunetul este oprit. Activează-l din butonul ♫.');return false;}this.stop();let source=this.custom.get(id),entry=this.manifest[id];if(!source&&!entry){try{await this.refresh();entry=this.manifest[id];}catch{}}if(!source&&!entry){toast('Înregistrarea nu s-a încărcat. Reîncarcă aplicația și încearcă din nou.');return false;}
   this.player=new Audio(source?(this.url=URL.createObjectURL(source)):entry.file);const player=this.player;player.volume=.8;button?.classList.add('playing');player.addEventListener('ended',()=>button?.classList.remove('playing'),{once:true});
   try{await player.play();return true;}catch{button?.classList.remove('playing');if(this.player===player)toast('Sunetul nu poate fi redat. Apasă din nou sau verifică conexiunea.');return false;}
+ },
+ async speak(name){
+  await this.ready;if(settings.muted)return false;this.stop();const animal=ANIMALS.find(a=>a.name===name||a.id===name);if(!animal)return false;
+  let entry=this.names[animal.id];if(!entry){try{await this.refreshNames();entry=this.names[animal.id];}catch{}}
+  if(!entry){toast('Citirea numelui nu s-a încărcat. Reîncarcă aplicația.');return false;}
+  const player=new Audio(entry.file);this.player=player;player.volume=.85;try{await player.play();return true;}catch{if(this.player===player)toast('Apasă din nou pentru a asculta numele.');return false;}
  },
  tone(frequency,start,duration,gain=.12){if(!this.context)return;const oscillator=this.context.createOscillator(),envelope=this.context.createGain(),time=this.context.currentTime+start;oscillator.type='sine';oscillator.frequency.value=frequency;envelope.gain.setValueAtTime(0,time);envelope.gain.linearRampToValueAtTime(gain,time+.012);envelope.gain.exponentialRampToValueAtTime(.001,time+duration);oscillator.connect(envelope);envelope.connect(this.context.destination);oscillator.start(time);oscillator.stop(time+duration+.02);},
  cue(kind){this.stop();if(settings.muted)return;this.unlock();window.lastAudioCue=kind;if(kind==='wrong'){this.tone(390,0,.14,.08);this.tone(295,.13,.2,.07);return;}if(kind==='success'&&this.manifest._applause){const p=new Audio(this.manifest._applause.file);p.volume=.65;this.player=p;p.play().catch(()=>this.fanfare());}else if(kind==='match'){this.tone(660,0,.15,.1);this.tone(880,.11,.22,.09);}else this.fanfare();},
