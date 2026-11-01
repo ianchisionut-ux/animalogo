@@ -370,3 +370,8 @@ dialog input, dialog select { background: #ffffffec; border: 1px solid #d6e8f2; 
   .match-source .mini-art { width: min(55px, calc(100cqh - 4px)); height: min(55px, calc(100cqh - 4px)); }
   .match-target .target-icon { font-size: min(44px, calc(100cqh - 5px)); }
 }
+
+#stop-sound { min-width: 96px; gap: 6px; font-size: 13px; }
+#stop-sound:disabled { opacity: .5; box-shadow: none; cursor: default; }
+#stop-sound.is-playing { background: linear-gradient(#d6f5ff, #b9eaff); color: #086a9b; }
+@media (max-height: 680px) { #stop-sound { min-width: 82px; font-size: 11px; } }

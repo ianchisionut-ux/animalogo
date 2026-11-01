@@ -8,6 +8,8 @@ Aplicație educativă în română pentru desktop, telefon și tabletă, cu 36 d
 - Greșeala produce două note blânde și o animație discretă; copilul poate încerca din nou.
 - Răspunsul corect produce feedback sonor și steluțe animate.
 - Jocul trece automat la runda următoare după 1,4 secunde. Nu există buton „Mai departe”.
+- Aventurile amestecă implicit cele patru tipuri de joc, fără două jocuri identice consecutive. Prima rundă respectă jocul ales; adultul poate dezactiva amestecarea. Pozițiile elementelor și ordinea cardurilor de joc sunt aleatorii.
+- Butonul „Oprește” este activ numai când se redă audio și oprește atât înregistrările, cât și semnalele sonore.
 - Jocurile, ecranul principal și progresul se adaptează la înălțimea ecranului. Catalogul animalelor poate fi derulat.
 - Panoul adultului este împărțit în taburi pentru setări, sunete și progres.
 - Setările, progresul și modelele audio personalizate se salvează în browser; înregistrările nu sunt încărcate pe un server.
