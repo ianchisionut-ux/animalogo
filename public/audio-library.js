@@ -1,14 +1,15 @@
 // Audio stays on this device. Uploaded models are never sent to a server.
 const AudioLibrary={
  manifest:{},custom:new Map(),player:null,url:null,context:null,recorder:null,stream:null,recordTimer:null,db:null,ready:null,
+ async refresh(){const response=await fetch('audio-manifest.json',{cache:'reload'});if(!response.ok)throw Error('Audio manifest');this.manifest=await response.json();},
  async init(){
-  try{const response=await fetch('audio-manifest.json');if(!response.ok)throw Error('Audio manifest');this.manifest=await response.json();}catch{toast('Biblioteca audio nu s-a încărcat. Reîncarcă aplicația.');}
+  try{await this.refresh();}catch{toast('Biblioteca audio nu s-a încărcat. Reîncarcă aplicația.');}
   try{this.db=await new Promise((resolve,reject)=>{let r=indexedDB.open('animalogo-audio',1);r.onupgradeneeded=()=>r.result.createObjectStore('models');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});const rows=await new Promise((resolve,reject)=>{const store=this.db.transaction('models').objectStore('models');let request=store.openCursor(),rows=[];request.onsuccess=()=>{let c=request.result;if(c){rows.push([c.key,c.value]);c.continue();}else resolve(rows);};request.onerror=()=>reject(request.error);});this.custom=new Map(rows);}catch{this.db=null;}
  },
  unlock(){try{this.context??=new(window.AudioContext||window.webkitAudioContext)();if(this.context.state==='suspended')this.context.resume().catch(()=>{});}catch{}},
  stop(){if(this.player){this.player.pause();this.player.removeAttribute('src');this.player.load();this.player=null;}if(this.url){URL.revokeObjectURL(this.url);this.url=null;}document.querySelectorAll('.playing').forEach(e=>e.classList.remove('playing'));if(window.speechSynthesis)speechSynthesis.cancel();},
  async play(id,button){
-  await this.ready;if(settings.muted){toast('Sunetul este oprit. Activează-l din butonul ♫.');return false;}this.stop();let source=this.custom.get(id),entry=this.manifest[id];if(!source&&!entry){toast('Nu există o înregistrare pentru acest animal.');return false;}
+  await this.ready;if(settings.muted){toast('Sunetul este oprit. Activează-l din butonul ♫.');return false;}this.stop();let source=this.custom.get(id),entry=this.manifest[id];if(!source&&!entry){try{await this.refresh();entry=this.manifest[id];}catch{}}if(!source&&!entry){toast('Înregistrarea nu s-a încărcat. Reîncarcă aplicația și încearcă din nou.');return false;}
   this.player=new Audio(source?(this.url=URL.createObjectURL(source)):entry.file);const player=this.player;player.volume=.8;button?.classList.add('playing');player.addEventListener('ended',()=>button?.classList.remove('playing'),{once:true});
   try{await player.play();return true;}catch{button?.classList.remove('playing');if(this.player===player)toast('Sunetul nu poate fi redat. Apasă din nou sau verifică conexiunea.');return false;}
  },
