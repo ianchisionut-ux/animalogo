@@ -1,0 +1,14 @@
+node_modules/
+.vercel/
+output/
+audio-research/
+*.jks
+signing.properties
+local.properties
+.gradle/
+**/build/
+.env*
+!.env.example
+
+.vercel
+.env*

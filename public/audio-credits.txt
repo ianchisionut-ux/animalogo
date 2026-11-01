@@ -1,0 +1,263 @@
+AnimaLogo — înregistrări audio reale
+
+Fișierele audio păstrează licența individuală indicată. Aplicația nu revendică drepturi asupra înregistrărilor.
+Fragmentele au fost scurtate și normalizate; nu s-a sintetizat vocea animalelor.
+
+albina: Bees honeybees swarm buzzing among flowers
+Autor: ylearkisto
+Sursă: https://freesound.org/people/ylearkisto/sounds/263673/
+Licență: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/albina.mp3
+
+_applause: Applause 2.WAV
+Autor: sandermotions
+Sursă: https://freesound.org/people/sandermotions/sounds/277021/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis. Final reward clip shortened to1.15 seconds with200ms fade tail for auto-advance.
+Fișier: sounds/_applause.mp3
+
+broasca: Frogs Croaking
+Autor: Tiagorlp
+Sursă: https://freesound.org/people/Tiagorlp/sounds/698930/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/broasca.mp3
+
+bufnita: Owl Slow Hoot
+Autor: dandman3039
+Sursă: https://freesound.org/people/dandman3039/sounds/528623/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/bufnita.mp3
+
+caine: Single Dog Bark
+Autor: kwahmah_02
+Sursă: https://freesound.org/people/kwahmah_02/sounds/277058/
+Licență: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/caine.mp3
+
+cal: File:Wiehern.ogg
+Autor: Hü.
+Sursă: https://commons.wikimedia.org/wiki/File:Wiehern.ogg
+Licență: Public domain (https://creativecommons.org/publicdomain/mark/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/cal.mp3
+
+capra: File:Herd of goats bleating.ogg
+Autor: stephan
+Sursă: https://commons.wikimedia.org/wiki/File:Herd_of_goats_bleating.ogg
+Licență: Public domain (https://creativecommons.org/publicdomain/mark/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/capra.mp3
+
+cerb: 201009.deer.roar.01.wav
+Autor: dobroide
+Sursă: https://freesound.org/people/dobroide/sounds/104580/
+Licență: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/cerb.mp3
+
+cicada: Cicadas
+Autor: dethrok
+Sursă: https://freesound.org/people/dethrok/sounds/272169/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/cicada.mp3
+
+cioara: Crow Caw
+Autor: Jofae
+Sursă: https://freesound.org/people/Jofae/sounds/361470/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/cioara.mp3
+
+ciocanitoare: Great Spotted Woodpecker
+Autor: naturenotesuk
+Sursă: https://freesound.org/people/naturenotesuk/sounds/428146/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/ciocanitoare.mp3
+
+cocos: File:Rooster crowing.ogg
+Autor: Filo gèn'
+Sursă: https://commons.wikimedia.org/wiki/File:Rooster_crowing.ogg
+Licență: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/cocos.mp3
+
+cuc: 02 - Cuckoo_stereo
+Autor: Nordliecht
+Sursă: https://freesound.org/people/Nordliecht/sounds/855951/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/cuc.mp3
+
+delfin: Dolphin screaming underwater in Caribbean sea Mexico
+Autor: felix.blume
+Sursă: https://freesound.org/people/felix.blume/sounds/161691/
+Licență: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/delfin.mp3
+
+elefant: File:Elephant voice - trumpeting.ogg
+Autor: தகவலுழவன்
+Sursă: https://commons.wikimedia.org/wiki/File:Elephant_voice_-_trumpeting.ogg
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/elefant.mp3
+
+foca: hungry Grey Seal-Pup
+Autor: schaarsen
+Sursă: https://freesound.org/people/schaarsen/sounds/662556/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/foca.mp3
+
+gaina: File:Hen announcing shes lain an egg.ogg
+Autor: alys
+Sursă: https://commons.wikimedia.org/wiki/File:Hen_announcing_shes_lain_an_egg.ogg
+Licență: Public domain (https://creativecommons.org/publicdomain/mark/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/gaina.mp3
+
+gasca: A squeaking goose
+Autor: antique98
+Sursă: https://freesound.org/people/antique98/sounds/160686/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/gasca.mp3
+
+greier: Cricket, close recording: Santiago
+Autor: felix.blume
+Sursă: https://freesound.org/people/felix.blume/sounds/495396/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/greier.mp3
+
+lacusta: Grasshopper
+Autor: lauris3722
+Sursă: https://freesound.org/people/lauris3722/sounds/161720/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/lacusta.mp3
+
+leu: Lion roaring.mp3
+Autor: Bidone
+Sursă: https://freesound.org/people/Bidone/sounds/69572/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/leu.mp3
+
+lup: wolves.wav
+Autor: Paresh
+Sursă: https://freesound.org/people/Paresh/sounds/158780/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/lup.mp3
+
+magar: A donkey is braying in his enclosure in south of France
+Autor: felix.blume
+Sursă: https://freesound.org/people/felix.blume/sounds/157763/
+Licență: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/magar.mp3
+
+maimuta: File:Brown woolly monkey alarm call.wav
+Autor: Kai Medina (Mk170101)
+Sursă: https://commons.wikimedia.org/wiki/File:Brown_woolly_monkey_alarm_call.wav
+Licență: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/maimuta.mp3
+
+mistret: wild boars bassing by
+Autor: bruno.auzet
+Sursă: https://freesound.org/people/bruno.auzet/sounds/810908/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/mistret.mp3
+
+musca: Insects - Fly; Large Bluebottle Fly Buzzing at a Window; Close Perspective
+Autor: TheKingOfGeeks360
+Sursă: https://freesound.org/people/TheKingOfGeeks360/sounds/835123/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/musca.mp3
+
+oaie: File:Sheep bleat.ogg
+Autor: Eviatar Bach
+Sursă: https://commons.wikimedia.org/wiki/File:Sheep_bleat.ogg
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/oaie.mp3
+
+pisica: File:Meow of a Siamese cat - freemaster2.wav
+Autor: freemaster2
+Sursă: https://commons.wikimedia.org/wiki/File:Meow_of_a_Siamese_cat_-_freemaster2.wav
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/deed.en)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/pisica.mp3
+
+porc: A pig grunting, grumbling and falling asleep (France, Limousin)
+Autor: felix.blume
+Sursă: https://freesound.org/people/felix.blume/sounds/158746/
+Licență: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/porc.mp3
+
+porumbel: pigeon walking and cooing.wav
+Autor: 5ro4
+Sursă: https://freesound.org/people/5ro4/sounds/701282/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/porumbel.mp3
+
+rata: Duck Quack
+Autor: gibarroule
+Sursă: https://freesound.org/people/gibarroule/sounds/365133/
+Licență: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/rata.mp3
+
+tantar: Mosquito 2 Edit.wav
+Autor: IanFSA
+Sursă: https://freesound.org/people/IanFSA/sounds/662969/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/tantar.mp3
+
+tigru: tiger roar
+Autor: videog
+Sursă: https://freesound.org/people/videog/sounds/149190/
+Licență: CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/tigru.mp3
+
+urs: File:Bear growl.ogg
+Autor: Shizhao
+Sursă: https://commons.wikimedia.org/wiki/File:Bear_growl.ogg
+Licență: CC BY 3.0 (https://creativecommons.org/licenses/by/3.0)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/urs.mp3
+
+vaca: Cow moo #3
+Autor: spurioustransients
+Sursă: https://freesound.org/people/spurioustransients/sounds/513557/
+Licență: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/vaca.mp3
+
+vrabie: House sparrow.wav
+Autor: straget
+Sursă: https://freesound.org/people/straget/sounds/404663/
+Licență: CC0 (http://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/vrabie.mp3
+
+vulpe: fox_barks_cut.wav
+Autor: Setzilla
+Sursă: https://freesound.org/people/Setzilla/sounds/173188/
+Licență: CC0 (https://creativecommons.org/publicdomain/zero/1.0/)
+Modificări: Trimmed excerpt, converted to mono MP3, normalized to -20 LUFS, short edge fades. No pitch synthesis.
+Fișier: sounds/vulpe.mp3

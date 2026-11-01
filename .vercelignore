@@ -1,0 +1,6 @@
+.git
+.env*
+audio-research
+output
+tests
+node_modules
