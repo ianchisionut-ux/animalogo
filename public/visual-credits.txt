@@ -1,0 +1,25 @@
+AnimaLogo — direcție vizuală de poveste
+
+Referință: imaginea „AnimaLogo_ Lumea sunetelor.png” furnizată de utilizator.
+Ilustrații noi create cu instrumentul built-in image_gen, pentru această aplicație.
+Fișiere finale: story-bg.webp, hero-story.webp, adventure-icons.webp.
+Pictogramele de navigare sunt SVG-uri native în HTML. Textul și comenzile rămân HTML.
+
+Prompt 1: landscape decorative preschool storybook background, pale nearly white
+sky with huge empty central space, soft clouds only at the outer edges, narrow
+rolling green meadow at the bottom, kind baby deer among leaves and yellow flowers
+in the far lower-left, white rabbit among leaves and flowers in the far lower-right,
+soft polished painted 3D-like illustrations, pastel icy blue, cream and lime,
+no text, logo, panels, border or watermark.
+
+Prompt 2: wide decorative header banner, preschool storybook style, empty pale cyan
+sky on the left for HTML text, green rolling hills and leaves along the bottom,
+adorable orange fox smiling and waving inside a turquoise medallion on the right,
+thick white rim, an empty navy rounded ribbon, yellow sparkles and fluffy clouds,
+no words, letters, numbers, UI controls or watermark.
+
+Prompt 3: transparent square 2-by-2 icon atlas, four centered polished playful
+3D-like storybook icons with chunky contours and candy pastel colors: blue and
+purple headphones with yellow cushions and a navy music note; orange wooden
+direction sign with a paw print and green leaves; glossy red apple with a green
+leaf; lavender speech bubble with three purple dots. No text or watermark.

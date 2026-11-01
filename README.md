@@ -46,3 +46,5 @@ Testele de browser folosesc Playwright și Google Chrome instalat pe PC. Ruleaz�
 Proiect Vercel: `animalogo`, în echipa `pmcustoms`. Repository: `ianchisionut-ux/animalogo`. Director publicat: `public`. Fișierele de autentificare, `.env*`, `.vercel` și directoarele de cercetare nu sunt incluse în Git.
 
 Ilustrațiile și sigla provin din prima versiune AnimaLogo: sigla furnizată de utilizator și ilustrații generate pentru proiect.
+
+Tema ilustrată comună tuturor ecranelor este în `public/theme.css`. Fundalul, bannerul cu vulpița și pictogramele jocurilor au fost generate pentru această aplicație; detaliile sunt în `public/visual-credits.txt`. Navigarea folosește SVG, iar textul și comenzile rămân elemente HTML accesibile.
