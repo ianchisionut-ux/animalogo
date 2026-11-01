@@ -400,3 +400,79 @@ dialog input, dialog select { background: #ffffffec; border: 1px solid #d6e8f2; 
   main[data-view='home'] .game-tile h3 { font-size: 16px; }
   main[data-view='home'] .game-tile .arrow { width: 21px; height: 21px; top: 7px; right: 7px; font-size: 20px; }
 }
+/* Extra adventures use the same compact storybook surfaces. */
+.adventure-pager { display: flex; gap: 12px; align-items: center; }
+.adventure-pager button { display: flex; align-items: center; gap: 8px; border: 2px solid white; border-radius: 20px; min-height: 36px; padding: 3px 12px; background: #dff3ff; color: #1679a1; font-size: 23px; }
+.adventure-pager button span { font-size: 12px; font-weight: bold; }
+.tile-memory { --card-ink: #35a78a; background: linear-gradient(135deg,#e8faf3,#fcfffd); }
+.tile-shadow { --card-ink: #8171c9; background: linear-gradient(135deg,#eeeaff,#fefcff); }
+.tile-sequence { --card-ink: #259dcd; }
+.tile-groups { --card-ink: #e5a13b; background: linear-gradient(135deg,#fff3dd,#fffdf7); }
+.tile-memory .tile-icon, .tile-shadow .tile-icon, .tile-sequence .tile-icon, .tile-groups .tile-icon { background: none; font-size: 55px; display: grid; place-items: center; line-height: 1; filter: drop-shadow(0 3px 0 #ffffff); }
+.tile-shadow .tile-icon { color: #8171c9; }
+.tile-sequence .tile-icon { color: #209ac9; }
+.memory-grid { flex: 1; min-height: 0; display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); grid-template-rows: repeat(2,minmax(0,1fr)); gap: 13px; width: min(100%,720px); max-height: 460px; align-self: center; }
+.memory-card { position: relative; min-height: 0; overflow: hidden; border: 3px solid white; border-radius: 23px; background: linear-gradient(135deg,#d5f2ff,#e9e3ff); box-shadow: 0 3px 0 #cfe5f1; display: grid; place-items: center; }
+.memory-grid:has(.memory-card:nth-child(5)):not(:has(.memory-card:nth-child(7))) { grid-template-columns: repeat(3,minmax(0,1fr)); }
+.memory-grid:not(:has(.memory-card:nth-child(5))) { grid-template-columns: repeat(2,minmax(0,1fr)); max-width: 440px; }
+.memory-back { font-size: clamp(30px,6dvh,54px); color: #167da4; }
+.memory-face { display: none; width: 100%; height: 100%; border-radius: 16px; max-width: none; }
+.memory-card.revealed .memory-back { display: none; }
+.memory-card.revealed .memory-face { display: block; }
+.memory-card.matched { border-color: #64cf9c; opacity: 1; }
+.pair-check { display: none; position: absolute; bottom: 5px; right: 5px; color: #16754c; background: white; border-radius: 50%; width: 25px; height: 25px; font-size: 20px; }
+.memory-card.matched .pair-check { display: block; }
+.shadow-clue { height: clamp(58px,14dvh,120px); min-height: 0; display: grid; place-items: center; align-self: center; width: min(60%,240px); border: 2px solid white; border-radius: 24px; background: linear-gradient(135deg,#ece6ff,#f9f7ff); }
+.shadow-clue span { filter: brightness(0); font-size: clamp(42px,10dvh,85px); line-height: 1; }
+.extra-options { max-height: 330px; }
+.sequence-controls { display: flex; align-items: center; justify-content: center; gap: 24px; min-height: 48px; }
+.sequence-steps { display: flex; gap: 12px; font-size: 28px; color: #78b5d0; }
+.sequence-steps .hearing { color: #ecad22; transform: scale(1.3); }
+.extra-options .animal:disabled { opacity: .55; cursor: default; }
+.group-clue { flex: 1; min-height: 0; aspect-ratio: 1; width: auto; max-height: 230px; max-width: 100%; align-self: center; border-radius: 25px; border: 3px solid white; }
+.group-options { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 13px; min-height: 100px; }
+.group-choice { border: 3px solid white; border-radius: 24px; background: linear-gradient(#f7fcff,#e6f5f8); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 10px; min-width: 0; }
+.group-choice > span { font-size: 47px; line-height: 1; }
+.group-choice strong { font-size: 16px; }
+.group-choice.correct { border-color: #64cf9c; }
+@media (max-width:760px) and (orientation:portrait) {
+  main[data-view='home'] .tile-memory .tile-icon, main[data-view='home'] .tile-shadow .tile-icon, main[data-view='home'] .tile-sequence .tile-icon, main[data-view='home'] .tile-groups .tile-icon { font-size: 52px; }
+  .memory-grid { gap: 9px; }
+  .memory-grid:has(.memory-card:nth-child(7)) { grid-template-columns: repeat(2,minmax(0,1fr)); grid-template-rows: repeat(4,minmax(0,1fr)); }
+  .memory-card { border-radius: 18px; }
+  .group-options { gap: 7px; min-height: 95px; }
+  .group-choice { padding: 8px 3px; border-radius: 18px; }
+  .group-choice > span { font-size: 36px; }
+  .group-choice strong { font-size: 12px; }
+  .adventure-pager { gap: 8px; }
+  .adventure-pager button { min-height: 30px; padding: 2px 9px; }
+}
+@media (max-height:680px) {
+  .memory-grid { gap: 7px; }
+  .sequence-controls { gap: 15px; min-height: 38px; }
+  .sequence-steps { font-size: 23px; gap: 9px; }
+  .group-clue { max-height: 150px; }
+  .group-options { min-height: 80px; }
+  .group-choice > span { font-size: 32px; }
+  main[data-view='home'] .tile-memory .tile-icon, main[data-view='home'] .tile-shadow .tile-icon, main[data-view='home'] .tile-sequence .tile-icon, main[data-view='home'] .tile-groups .tile-icon { font-size: 38px; }
+}
+@media (orientation:landscape) and (max-height:500px) {
+  .memory-grid { max-width: 600px; }
+  .shadow-clue { height: 42px; }
+  .shadow-clue span { font-size: 36px; }
+  .group-clue { max-height: 80px; }
+  .group-options { min-height: 60px; }
+  .group-choice { flex-direction: row; padding: 4px 8px; }
+  .group-choice > span { font-size: 28px; }
+  .group-choice strong { font-size: 12px; }
+  .sequence-controls .listen { min-height: 34px; padding: 5px 20px; }
+  .extra-options { max-width: 560px; }
+}
+/* Keep silhouettes independent of installed fonts and memory art undistorted. */
+.shadow-clue img { width: 85%; height: 85%; object-fit: contain; filter: brightness(0); }
+.memory-card { container-type: size; }
+.memory-face { width: min(100cqw,100cqh); height: min(100cqw,100cqh); max-width: 100%; max-height: 100%; }
+.tile-sequence .tile-icon { background: url('adventure-icons.webp') 0 0 / 200% 200% no-repeat; font-size: 0 !important; }
+.tile-groups .tile-icon { background: url('shadows/vaca.png') center / contain no-repeat; font-size: 0 !important; }
+.shadow-clue { overflow: hidden; }
+.shadow-clue img { display: block; width: min(85px,10dvh); height: min(85px,10dvh); max-width: 100%; max-height: 100%; }
