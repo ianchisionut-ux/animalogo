@@ -57,7 +57,7 @@ main[data-view='home'] { gap: 15px; }
   border-radius: 30px;
   padding: 16px 34px;
   background-color: #caf4fd;
-  background-image: linear-gradient(110deg, #cff5fc, #edfbff 60%, #b6ebfa);
+  background-image: linear-gradient(90deg, #d1f6fc 0%, #d1f6fc 62%, #d1f6fc00 86%), url('hero-story.webp');
   background-position: left center, right center;
   background-size: 100% 100%, auto 100%;
   background-repeat: no-repeat;
@@ -88,7 +88,19 @@ main[data-view='home'] { gap: 15px; }
 }
 .hero p { font-size: 15px; margin-top: 12px; }
 .hero .logo-wrap { visibility: hidden; }
-
+.hero-mascot-title {
+  position: absolute;
+  right: calc(var(--hero-h) * .13);
+  bottom: calc(var(--hero-h) * .14);
+  width: calc(var(--hero-h) * .76);
+  text-align: center;
+  color: white;
+  font-size: calc(var(--hero-h) * .125);
+  font-weight: 900;
+  letter-spacing: -.7px;
+  transform: rotate(-2deg);
+}
+.hero-mascot-title b { color: #ffd13f; }
 
 .section-head h2 { font-size: 27px; position: relative; }
 .section-head .stars {
@@ -241,11 +253,12 @@ dialog input, dialog select { background: #ffffffec; border: 1px solid #d6e8f2; 
   .brand small { font-size: 7px; }
   .brand-fox { padding: 3px; }
   main[data-view='home'] { gap: 11px; }
-  .hero { --hero-h: 110px; border-radius: 24px; padding: 12px 17px; background-image: linear-gradient(110deg, #cff5fc, #edfbff 60%, #b6ebfa); }
+  .hero { --hero-h: 110px; border-radius: 24px; padding: 12px 17px; background-image: linear-gradient(90deg, #d1f6fc 0%, #d1f6fce8 40%, #d1f6fc00 68%), url('hero-story.webp'); }
   .hero .eyebrow { font-size: 8px; letter-spacing: 1px; }
   .hero h1 { font-size: 25px; }
   .hero h1 em::after { border-width: 3px; bottom: -3px; }
   .hero p { font-size: 11px; margin-top: 9px; }
+  .hero-mascot-title { letter-spacing: -.6px; }
   .section-head h2 { font-size: 20px; }
   .section-head .stars { padding: 5px 9px; font-size: 10px; }
   .games { gap: 12px; max-height: 390px; }
@@ -367,11 +380,8 @@ dialog input, dialog select { background: #ffffffec; border: 1px solid #d6e8f2; 
 .repeat-card .try { font-size: 28px; color: #21865b; }
 @media (max-height: 680px) { .feedback-symbol { font-size: 23px; } }
 
-/* Official logo shared by every screen and the home banner. */
+/* Official header logo. */
 .brand-fox { display: block; width: 56px; height: 51px; padding: 0; border: 0; border-radius: 14px; background: transparent; overflow: hidden; flex: none; }
 .brand-fox img { display: block; width: 100%; height: 100%; object-fit: contain; }
-.hero .logo-wrap { visibility: visible; position: absolute; z-index: 1; right: 20px; top: 50%; transform: translateY(-50%); width: calc(var(--hero-h) * .98); height: calc(var(--hero-h) * .88); border-radius: 18px; background: transparent; }
-.hero-logo { object-fit: contain; }
-.hero > div:first-child { max-width: calc(100% - var(--hero-h)); }
-@media (max-width: 760px) { .brand-fox { width: 48px; height: 44px; } .hero .logo-wrap { right: 10px; border-radius: 12px; } .hero > div:first-child { max-width: calc(100% - var(--hero-h) + 4px); } }
+@media (max-width: 760px) { .brand-fox { width: 48px; height: 44px; } }
 @media (orientation: landscape) and (max-height: 500px) { .brand-fox { width: 40px; height: 36px; } }
